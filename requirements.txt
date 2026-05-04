@@ -1,4 +1,8 @@
+torch
+numpy
 scipy
 pandas
 numba
 matplotlib
+tqdm
+gurobipy
