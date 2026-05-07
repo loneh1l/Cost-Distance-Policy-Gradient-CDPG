@@ -6,7 +6,6 @@ ign*
 /logs*
 *.pt
 *.lprof
-loneh1l*
 *test.py
 /results*
 !/data/rand/README.md
