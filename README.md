@@ -9,10 +9,6 @@ Each subgraph directory contains:
 - `nodes.csv`
 - `edges.csv`
 
-The `rand` and `tn` dataset loading paths have been removed from
-`utils/data_loader.py`. Their command-line options still exist in
-`args_config.py`, but `main.py` only has a dedicated loader for `gba`; other
-dataset choices fall through to the generic `DataLoader` path.
 
 ## Methods
 
@@ -23,10 +19,6 @@ The runnable methods in `main.py` are:
 - `chekuri`
 - `meyerson`
 - `gurobi`
-
-Legacy parser entries for removed methods may still appear in `args_config.py`,
-but the corresponding method files and `main.py` execution branches have been
-removed.
 
 ## Scripts
 
