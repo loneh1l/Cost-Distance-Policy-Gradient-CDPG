@@ -1,4 +1,4 @@
-# CoDi-PG (CDPG)
+# CDPG
 
 ## Dataset
 
